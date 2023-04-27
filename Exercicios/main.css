@@ -13,6 +13,7 @@ body > header{
 h1{
     color: #f08080;
     text-decoration: overline;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 header .container{
@@ -60,7 +61,11 @@ section{
 section h2, 
 .articles article{
     margin-bottom: 16px;
+}
 
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 500;
 }
 
 .articles article h3{
@@ -83,10 +88,10 @@ section h2,
     background-color: #60b9f5;
 }
 
-#sports{
-    background-color: #ffbcbc3d;
+#films, #series, #animes, #animation{
+    background-color: #fde7e7;
 }
 
-#economy{
-    background-color: #ffbcbc3d;
+footer{
+    background-color: #fde7e7;
 }
