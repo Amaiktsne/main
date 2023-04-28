@@ -5,9 +5,10 @@
 }
 
 header{
-padding: 16px 0;
-background-color: #182c61;
-color: #ecf0f1;
+    padding: 16px 0;
+    background-color: #182c61;
+    color: #ecf0f1;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header nav li{
