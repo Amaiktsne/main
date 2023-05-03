@@ -25,7 +25,7 @@ header .container{
 header li{
     display: inline;
     margin-left: 16px;
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 25px
 }
 
@@ -65,5 +65,4 @@ footer {
     padding: 8px;
     text-align: center;
     box-shadow: 0 0 10px black;
-    margin-top: auto;
 }
