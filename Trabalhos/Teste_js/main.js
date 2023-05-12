@@ -25,4 +25,5 @@ if (password.value !== "senha_correta") {
 } else {
     passError.style.display = "none";
 }
+
 });
