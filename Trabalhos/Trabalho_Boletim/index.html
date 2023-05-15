@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="./main.css"/>
 </head>
 <body>
+    <div id="container">
     <header>
         <img src="/Midias/logo.png" alt="Formatura"/>
         <h1>Resultado Aluno</h1>
     </header>
-    <form>
-        <input type="text" required placeholder="Nome da Atividade"/>
-        <input type="number" required placeholder="Nota da Atividade"/>
+    <form id="form_atividade">
+        <input type="text" id="nome_atividade" placeholder="Nome da Atividade"/>
+        <input type="number" id="nota_atividade" placeholder="Nota da Atividade" min="0" max="10"/>
         <button type="submit">Adicionar +</button>
     </form>
-    <table>
+    <table cellspacing="0">
         <thead>
             <tr>
                 <th>
@@ -47,9 +48,11 @@
             <tr>
                 <td>Nota Média</td>
                 <td>19,6</td>
-                <td>Aprovado</td>
+                <td><span class="resultado aprovado">Aprovado</span></td>
             </tr>
         </tfoot>
     </table>
+    </div>
+    <script src="./main.js"></script>
 </body>
 </html>

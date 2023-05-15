@@ -27,3 +27,4 @@ if (password.value !== "senha_correta") {
 }
 
 });
+
