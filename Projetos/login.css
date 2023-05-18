@@ -75,27 +75,5 @@ button {
     width: 100%;
 }
 
-button:hover {
-    background-color: #72669e;
-}
-
-#tem {
-    margin-bottom: 16px;
-    margin-right: 10px;
-    font-size: 17px;
-    color:#aaaaaa;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    color: #513c9c;
-    transition: background-color 1s ease;
-    border-radius: 5px;
-}
-
-#tem:hover{
-    color: #2e00fa;
-}
-
-
 
 

@@ -1,31 +1,29 @@
-document.getElementById("registrationForm").addEventListener("submit", function(event) {
-    event.preventDefault();
+// cadastro.js
+
+// Função para ler os campos do formulário e redirecionar para a página de login
+function cadastrar(event) {
+    event.preventDefault(); // Evita o comportamento padrão de envio do formulário
+
+    // Obtém os valores dos campos
     var email = document.getElementById("email").value;
-    var password = document.getElementById("password").value;
+    var senha = document.getElementById("password").value;
     var nick = document.getElementById("nick").value;
 
-    // Verificar se o cadastro é válido
-    if (email && password && nick) {
-      // Cadastro bem-sucedido, redirecionar para a página principal
-    window.location.href = "index.html";
-    } else {
-      // Cadastro inválido, exibir mensagem de erro
-    alert("Algo deu errado. Por favor, preencha todos os campos.");
-    }
-});
+    // Armazena os dados em um objeto ou envia para o servidor, como preferir
+    var dadosCadastro = {
+    email: email,
+    senha: senha,
+    nick: nick
+    };
 
-document.getElementById("loginForm").addEventListener("submit", function(event) {
-    event.preventDefault();
-    var loginNick = document.getElementById("loginNick").value;
-    var loginPassword = document.getElementById("loginPassword").value;
-    
-    function redirectToPage() {
-      // Redirecionar para outra página
-      window.location.href = "outra_pagina.html";
-    }
-    if (loginNick && loginPassword) {
-    window.location.href = "index.html";
-    } else {
-    alert("Algo deu errado. Por favor, preencha todos os campos.");
-    }
-});
+    // Exibe os dados no console (apenas para demonstração)
+    console.log(dadosCadastro);
+
+    // Limpa os campos do formulário
+    document.getElementById("email").value = "";
+    document.getElementById("password").value = "";
+    document.getElementById("nick").value = "";
+
+    // Redireciona para a página de login
+    window.location.href = "login.html";
+}
