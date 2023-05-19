@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.container input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.container button {
+    padding: 5px 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ul li.completed label {
+    text-decoration: line-through;
+    color: gray;
+}
+
+ul li label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul li input[type="checkbox"] {
+    margin-right: 5px;
+}
