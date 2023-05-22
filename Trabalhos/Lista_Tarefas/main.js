@@ -1,33 +1,22 @@
-function adicionarTarefa() {
-    var tarefaInput = document.getElementById("tarefaInput");
-    var tarefaTexto = tarefaInput.value;
+$(document).ready(function(){
+    $('header button').click(function(e){
+        $('form').slideDown();
+    })
 
-    if (tarefaTexto === "") {
-    alert("Digite uma tarefa");
-    return;
-    }
+    $('#botao_cancelar').click(function(){
+        $('form').slideUp();
+    })
 
-    var listaTarefas = document.getElementById("listaTarefas");
+    $('form').on('submit', function(e){
+        e.preventDefault();
+        const novaTarefa = $('#nova_tarefa').val();
+        const novoItem = $(`<li style="display: none"> ${novaTarefa} </li>`);
+        $(novoItem).appendTo('ul');
+        $(novoItem).fadeIn(1000);
+        $('#nova_tarefa').val('');
 
-    var novaTarefa = document.createElement("li");
-
-    var checkbox = document.createElement("input");
-    checkbox.type = "checkbox";
-    checkbox.onchange = function() {
-    if (checkbox.checked) {
-        novaTarefa.classList.add("completed");
-    } else {
-        novaTarefa.classList.remove("completed");
-    }
-    };
-
-    var label = document.createElement("label");
-    label.innerText = tarefaTexto;
-
-    novaTarefa.appendChild(checkbox);
-    novaTarefa.appendChild(label);
-
-    listaTarefas.appendChild(novaTarefa);
-
-    tarefaInput.value = "";
-}
+        $('li').click(function(){
+            $(this).css('text-decoration', "line-through");
+        })
+    });
+})
