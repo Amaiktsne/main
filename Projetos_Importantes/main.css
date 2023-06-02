@@ -5,6 +5,21 @@
     font-family: 'Roboto', 'sans-serif';
 }
 
+/* body{
+    background-image: url(/Projetos_Importantes/imagens/wallpapergeralrpg.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+} */
+
+body{
+    background-image: url(/Projetos_Importantes/imagens/wallpapergeralrpg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #000000;
+}
+
 html{
     overflow-x: hidden;
 }
@@ -18,7 +33,7 @@ html{
 header{
     background-color: #192a56;
     padding-top: 16px;
-    color: #fff;
+    color: #ffffff;
 }
 
 header > .container{
@@ -133,4 +148,16 @@ strong, .preco{
 
 h2{
     text-align: center;
+}
+
+p{
+    color: #fff;
+}
+
+footer {
+    background-color: #192a56;
+    padding: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    color: #e9e3e3;
 }
