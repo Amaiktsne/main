@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', 'sans-serif';
+    font-size: 17px;
 }
 
 body{
     background-image: url(/Projetos_Importantes/imagens/wallpapergeralrpg.png);
-    /* background-size: cover; */
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #000000;

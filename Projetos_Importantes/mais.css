@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', 'sans-serif';
+    font-size: 17px;
 }
 
 html{
@@ -133,4 +134,12 @@ strong, .preco{
 
 h2{
     text-align: center;
+}
+
+footer {
+    background-color: #192a56;
+    padding: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    color: #e9e3e3;
 }

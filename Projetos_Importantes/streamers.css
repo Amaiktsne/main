@@ -3,22 +3,28 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', 'sans-serif';
+    font-size: 17px;
 }
 
-html{
-    overflow-x: hidden;
+body{
+    background-image: url(/Projetos_Importantes/imagens/wallpapergeralrpg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #000000;
 }
 
-.container{
-    max-width: 1024px;
-    width: 100%;
-    margin: 0 auto;
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 500;
+    text-align: flex;
+    color: #ffffff;
 }
 
 header{
     background-color: #192a56;
     padding-top: 16px;
     color: #fff;
+    box-shadow: 0 0 10px black;
 }
 
 header > .container{
@@ -34,20 +40,6 @@ nav {
     display: none;
 }
 
-nav li{
-    list-style: none;
-    display: inline;
-    margin-right: 16px;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-nav li a{
-    color: #fff;
-    text-decoration: none;
-}
-
 .menu_hamburger{
     width: 32px;
     cursor: pointer;
@@ -61,22 +53,6 @@ nav li a{
     margin-bottom: 4px;
 }
 
-.container_flex{
-    display: flex;
-}
-
-#sobre_a_loja img{
-    max-width: 400px;
-}
-.texto h2, .texto p{
-    margin: 16px;
-    text-align: justify;
-}
-
-.texto h2{
-    margin-top: 0;
-}
-
 section{
     padding: 48px 0;
 }
@@ -85,52 +61,129 @@ section h2{
     margin-bottom: 16px;
 }
 
-.lista_veiculos{
+section div{
+    text-align: center;
+}
+
+#a{
+    font-size: 30px;
+    color: #000000;
+    text-shadow: 0 0 2px black;
+}
+
+#aa{
+    font-size: 19px;
+    color: #ffffff;
+    text-shadow: 0 1px 1px rgb(0, 0, 0);
+}
+
+#XD {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
-.lista_veiculos li{
-    list-style: none;
-    max-width: 30%;
-    margin-bottom: 24px;
+
+/* #token {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.lista_veiculos li img{
-    max-width: 100%;
+#token div {
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
-.lista_veiculos li h3{
-    margin: 16px 0;
-}
-
-.item_central{
-    margin: 0 5%;
-}
-
-.lista_veiculos li button{
-    display: block;
+#token img {
     width: 100%;
-    padding: 8px;
-    border: none;
-    background-color: #119759;
-    color: #fff;
-    font-size: 16px;
-    font-family: bold;
-    font-style: italic;
-    cursor: pointer;
-    border-radius: 6px;
-}
+    height: auto;
+} */
 
-strong, .preco{
-    margin: 16px 0;
-    display: block;
-}
 
-.preco del{
-    color: #ccc;
-    font-size: 14px;
-}
+
+/* #token {
+    margin-left: 100px;
+    max-width: 100px;
+} */
+
+/* #b{
+    font-size: 19px;
+    color: #ffffff;
+    text-shadow: 0 1px 1px rgb(0, 0, 0);
+} */
 
 h2{
     text-align: center;
+    color: #fff;
+}
+
+header li a{
+    color:#aaaaaa;
+    text-decoration: none;
+}
+
+header .container img{
+    height: 100px;
+    display: flex;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.quote-containera {
+    text-align: center;
+    overflow: auto;
+    max-height: 1000px;
+    line-height: 1.35em;
+    padding: 15px;
+    overflow: visible;
+    border: #000000b2;
+    border-width: 3px 3px 3px 3px;
+    background: #696363b2; 
+    border-radius: 1px 1px 1px 1px;
+    margin-bottom: 10px;
+    margin-top: 200px;
+}
+
+.quote-container {
+    text-align: center;
+    overflow: auto;
+    max-height: 100000px;
+    line-height: 1.35em;
+    padding: 15px;
+    overflow: visible;
+    border: #000000b2;
+    border-width: 3px 3px 3px 3px;
+    background: #555050b2; 
+    border-radius: 1px 1px 1px 1px;
+    margin-bottom: 10px;
+    margin-top: 30vh;
+}
+
+.quote-containere {
+    text-align: center;
+    overflow: auto;
+    max-height: 100000px;
+    line-height: 1.35em;
+    padding: 15px;
+    overflow: visible;
+    border: #000000b2;
+    border-width: 3px 3px 3px 3px;
+    background: #555050b2; 
+    border-radius: 1px 1px 1px 1px;
+    margin-bottom: 10px;
+    margin-top: 10vh;
+}
+
+footer {
+    background-color: #192a56;
+    padding: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    color: #e9e3e3;
 }
