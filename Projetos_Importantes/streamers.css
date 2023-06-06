@@ -65,9 +65,15 @@ section div{
     text-align: center;
 }
 
-#a{
+#title{
     font-size: 30px;
     color: #000000;
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+}
+
+#a{
+    font-size: 30px;
+    color: #ce2a2a;
     text-shadow: 0 0 2px black;
 }
 
@@ -130,9 +136,17 @@ header .container img{
     display: flex;
 }
 
-.container{
-    width: 1366px;
+/* .container{
+    width: 1366px; 
+    width: flex;
     margin: 0 auto 0 auto;
+} */
+
+.container {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto; 
+    box-sizing: border-box;
 }
 
 .quote-containera {

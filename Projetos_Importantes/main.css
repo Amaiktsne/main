@@ -11,6 +11,7 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #000000;
+    min-height: 100vh;
 }
 
 p{
@@ -62,13 +63,20 @@ section h2{
 }
 
 section div{
-    text-align: center;
+    text-align: left;
+}
+
+#title{
+    font-size: 30px;
+    color: #000000;
+    text-shadow: 0 0 2px rgb(0, 0, 0);
 }
 
 #a{
     font-size: 30px;
-    color: #000000;
+    color: #ce2a2a;
     text-shadow: 0 0 2px black;
+
 }
 
 #aa{
@@ -85,34 +93,12 @@ section div{
     flex-wrap: wrap;
 }
 
-/* #token {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#token div {
-    width: 33.33%;
-    padding: 10px;
+#foto{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto; 
     box-sizing: border-box;
 }
-
-#token img {
-    width: 100%;
-    height: auto;
-} */
-
-
-
-/* #token {
-    margin-left: 100px;
-    max-width: 100px;
-} */
-
-/* #b{
-    font-size: 19px;
-    color: #ffffff;
-    text-shadow: 0 1px 1px rgb(0, 0, 0);
-} */
 
 h2{
     text-align: center;
@@ -129,9 +115,11 @@ header .container img{
     display: flex;
 }
 
-.container{
-    width: 1366px;
-    margin: 0 auto 0 auto;
+.container {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto; 
+    box-sizing: border-box;
 }
 
 .quote-containera {
