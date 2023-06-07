@@ -21,10 +21,11 @@ p{
 }
 
 header{
-    background-color: #192a56;
+    background-color: rgba(25, 42, 86, 0.5); 
     padding-top: 16px;
     color: #fff;
     box-shadow: 0 0 10px black;
+    overflow: visible;
 }
 
 header > .container{
@@ -35,7 +36,7 @@ header > .container{
 }
 
 nav {
-    background-color: #575fcf;
+    background-color: rgba(25, 42, 86, 0.5);
     padding: 16px 0;
     display: none;
 }
@@ -91,34 +92,21 @@ section div{
     flex-wrap: wrap;
 }
 
-/* #token {
-    display: flex;
-    flex-wrap: wrap;
+#menu{
+    font-size: 20px;
+    text-decoration: none;
+    color: #f5d363;
+    word-spacing: 10px;
+    padding-right: 100px;
+    align-items: center;
 }
 
-#token div {
-    width: 33.33%;
-    padding: 10px;
-    box-sizing: border-box;
+#menu:hover {
+    text-decoration: none;
+    color: #FFD700;
+    transition: 1s;
+    text-shadow: #ffffff 0px 0px 10px;
 }
-
-#token img {
-    width: 100%;
-    height: auto;
-} */
-
-
-
-/* #token {
-    margin-left: 100px;
-    max-width: 100px;
-} */
-
-/* #b{
-    font-size: 19px;
-    color: #ffffff;
-    text-shadow: 0 1px 1px rgb(0, 0, 0);
-} */
 
 h2{
     text-align: center;
@@ -141,6 +129,10 @@ header .container img{
     margin: 0 auto; 
     box-sizing: border-box;
 }
+
+/* .personagens{
+    margin-right: 0px;
+} */
 
 .quote-containera {
     text-align: center;
