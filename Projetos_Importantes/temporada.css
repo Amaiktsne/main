@@ -108,6 +108,24 @@ section div{
     text-shadow: #ffffff 0px 0px 10px;
 }
 
+/* #right{
+    padding-right: 70px;
+}
+
+#left{
+    padding-left: 180px;
+}
+
+#wright{
+    padding-right: 500px;
+}
+
+#wleft{
+    padding-left: 500px;
+} 
+
+quem dera tivesse funcionado*/
+
 h2{
     text-align: center;
     color: #fff;
@@ -129,10 +147,6 @@ header .container img{
     margin: 0 auto; 
     box-sizing: border-box;
 }
-
-/* .personagens{
-    margin-right: 0px;
-} */
 
 .quote-containera {
     text-align: center;
