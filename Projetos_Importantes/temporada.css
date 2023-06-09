@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(/Projetos_Importantes/imagens/wallpapergeralrpg.png);
+    background-image: url(./imagens/wallpapergeralrpg.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #000000;
@@ -107,24 +107,6 @@ section div{
     transition: 1s;
     text-shadow: #ffffff 0px 0px 10px;
 }
-
-/* #right{
-    padding-right: 70px;
-}
-
-#left{
-    padding-left: 180px;
-}
-
-#wright{
-    padding-right: 500px;
-}
-
-#wleft{
-    padding-left: 500px;
-} 
-
-quem dera tivesse funcionado*/
 
 h2{
     text-align: center;
