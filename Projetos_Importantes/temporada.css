@@ -108,6 +108,18 @@ section div{
     text-shadow: #ffffff 0px 0px 10px;
 }
 
+#link{
+    text-decoration: none;
+    color: #f5d363;
+}
+
+#link:hover {
+    text-decoration: none;
+    color: #FFD700;
+    transition: 1s;
+    text-shadow: #ffffff 0px 0px 10px;
+}
+
 h2{
     text-align: center;
     color: #fff;
