@@ -282,6 +282,21 @@ header .container img{
     margin-top: 10vh;
 }
 
+.quote-containerz {
+    text-align: center;
+    overflow: auto;
+    max-height: 100000px;
+    line-height: 1.35em;
+    padding: 15px;
+    overflow: visible;
+    border: #000000b2;
+    border-width: 3px 3px 3px 3px;
+    background: #555050b2; 
+    border-radius: 1px 1px 1px 1px;
+    margin-bottom: 10px;
+    margin-top: 10vh;
+}
+
 footer {
     background-color: #192a56;
     padding: 8px;
