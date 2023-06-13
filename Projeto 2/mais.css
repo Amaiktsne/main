@@ -297,6 +297,51 @@ header .container img{
     margin-top: 10vh;
 }
 
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section div label{
+    text-align: center;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0px 0px; 
+    color: #f5d363;
+    }
+
+button:hover{
+    text-decoration: none;
+    color: #FFD700;
+    transition: 1s;
+    text-shadow: #ffffff 0px 0px 10px;
+}
+
+input, textarea, button{
+    display: block;
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    resize: none; 
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+
+#usuario{
+    display: none;
+    
+}
+
 footer {
     background-color: #192a56;
     padding: 8px;
