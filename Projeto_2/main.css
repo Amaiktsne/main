@@ -101,7 +101,7 @@ section div{
     box-sizing: border-box;
 }
 
-#menu{
+#menu {
     font-size: 20px;
     text-decoration: none;
     color: #f5d363;
@@ -115,6 +115,14 @@ section div{
     color: #FFD700;
     transition: 1s;
     text-shadow: #ffffff 0px 0px 10px;
+} 
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 767px) {
+    #menu {
+        font-size: 16px;
+        padding-right: 20px;
+    }
 }
 
 h2{
